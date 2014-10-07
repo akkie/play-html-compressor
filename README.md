@@ -1,4 +1,5 @@
 # Google's HTML (and XML) Compressor for Play Framework 2[![Build Status](https://travis-ci.org/mohiva/play-html-compressor.png)](https://travis-ci.org/mohiva/play-html-compressor)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/akkie/play-html-compressor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Installation
 
@@ -11,7 +12,7 @@ libraryDependencies ++= Seq(
 
 If you want to use the latest snapshot, add the following instead:
 ```scala
-resolvers += "Sonatype Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
+resolvers += "Sonatype Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
 
 libraryDependencies ++= Seq(
   "com.mohiva" %% "play-html-compressor" % "0.4-SNAPSHOT"
